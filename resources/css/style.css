@@ -278,6 +278,7 @@ header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/hero-3-min.jpg);
     background-size:cover;
     background-attachment:fixed;
+    background-position: center;
 }
 
 .skill-tile-col{
