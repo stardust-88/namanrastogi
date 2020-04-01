@@ -1,0 +1,142 @@
+/*big tablet to 1200px(widths samller than 1140px row)*/
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        width:100%;
+        padding:0 2%;
+    }
+    
+    .row{ padding: 0 2%;}
+    .main-nav li{ margin-right: 45px;}
+    .certi-row{ padding: 0 4%;}    
+    .timeline h3{ font-size: 95%;}
+    .timeline ul{ padding: 1rem 1rem 1rem 2rem;}
+    .timeline .date::before{ left :-17.6rem; }
+    .desc{ padding-right:3%; }
+    
+    .timeline .date::after{
+        left:-2.7rem;
+        height:1.2rem;
+        width:1.2rem;
+     }
+}
+
+
+/*small tablet to big tablet(from 768px to 1023px)*/
+@media only screen and (max-width: 1023px){
+    body{ font-size: 18px;}
+    section{ padding:60px 0;}
+    
+    .main-nav li{ margin-right: 30px; font-size:90%;}
+    
+    .desc{ padding-right:3%; }
+    .profile{ padding-right: 6%; }
+    .certi-row{ padding: 0 4%;}    
+    .timeline h3{ font-size: 90%;}
+    .timeline ul{ padding:1rem 1rem 1rem 1.5rem;}
+    .timeline .date::before{ left :-17.0rem; }
+    
+    .timeline .date::after{
+        left:-2.3rem;
+        height:1.2rem;
+        width:1.2rem;
+     }
+    .timeline-row{ width: 70%;}
+    .timeline{ left:20%;}
+    
+    
+}
+
+/*small phones to small tablets(from 481 t0 767px)*/
+@media only screen and (max-width: 767px){
+    body{ font-size:16px;}
+    section{ padding:30px 0;}
+    
+    h1{ font-size:180%;}
+    h2{ font-size:150%;}
+    .sub-head{ font-size:95%}
+    
+    .row,.hero-text-box{ padding:0 4%;}
+    
+    .col{ width:100%;
+          margin:0 0 4% 0; }
+    
+    .main-nav{ display:none;}
+    
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 9px 0;
+        font-size: 100%;
+    }
+    
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 8px; }
+    
+    .certi{ width: 88%; }
+    .certi-row{ margin-left:13%;}
+    .row-skills{ width:80%;}
+    .profile{ width:78%;
+        padding-right:0;
+        -webkit-transform:translateX(4%);transform:translateX(4%)
+    }
+    
+    .timeline-row{ width: 66%;}
+    .timeline{ left:29%;}
+    
+     address{text-align: center; padding-bottom:3%;}
+    .social-links{clear: right; 
+        text-align: center;
+        position:relative;
+        width:100%;
+    }
+    
+} 
+
+
+/*small phones(from 0 to 480px)*/
+@media only screen and (max-width: 480px){
+    .section{padding:25px 0;}
+    
+    .btn:link,
+    .btn:visited{padding:8px 18px;}
+ 
+    .btn-full:link,
+    .btn-full:visited{ margin-right: 6px;}
+    
+     .timeline .date::after{
+    left:-2.1rem;
+    height:0.8rem;
+    width:0.8rem;
+    }
+    
+    .timeline h3{ font-size: 80%;}
+    .timeline ul{ padding:1rem 1rem 1rem 1.4rem; width:83%;}
+    .timeline .date::before{ left :-16.8rem; font-size:73%; }
+    .timeline p{ font-size:80%;}
+    .timeline{ left:35%;}
+
+}
+
+
+
+
+
+
+
+
